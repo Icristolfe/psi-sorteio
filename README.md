@@ -3,7 +3,7 @@
 ![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![StyledComponents](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-<p>Sistema de sorteio, o intuito principal do projeto é sortear um tema para inicio de consulta com psicólogos agilizando o processo de inicio de uma seção com um paciente quando não se tem um tema expecífico
+<p>Sistema de sorteio, o intuito principal do projeto é sortear um tema para inicio de consulta com psicólogos agilizando o processo de inicio de uma seção com um paciente quando não se tem um tema expecífico, para acessar o site clique<a href="https://sorteiopsi.netlify.app/">aqui </a>.
 </p>
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/196553482@N03/52708005413/in/dateposted-public/" title="Captura de tela de 2023-02-24 00-48-20"><img src="https://live.staticflickr.com/65535/52708005413_bd1f289593_c.jpg" width="800" height="394" alt="Captura de tela de 2023-02-24 00-48-20"></a>
