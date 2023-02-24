@@ -109,7 +109,7 @@ export const EditContainer = styled.div`
     flex-direction: column;
 
     input{
-        width: 29%;
+        width: 60%;
         height:  40px;
         border: none;
         border-radius: 10px;
@@ -120,7 +120,7 @@ export const EditContainer = styled.div`
     button {
     background: #202A4A;
     color: #e3e3e3;
-    width: 29%;
+    width: 70%;
     height: 40px;
     border: none;
     border-radius: 10px;
