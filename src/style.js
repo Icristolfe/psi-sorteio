@@ -2,9 +2,6 @@ import styled from 'styled-components'
 
 
 export const Container = styled.div`
-    background: rgb(0,48,255);
-    background: radial-gradient(circle, rgba(0,48,255,1) 0%, rgba(32,42,74,1) 100%);
-    height: 100vh;
     color: #000 ;
     padding: 50px;
     display: flex;
@@ -138,8 +135,8 @@ export const EditContainer = styled.div`
 
 export const SortContainer = styled.div `
     background-color: #191970;
-    width: 29%;
-    height: 200px;
+    width: 40%;
+    height: 253px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,7 +145,7 @@ export const SortContainer = styled.div `
     margin-bottom: 10px;
     border-radius: 10px;
     color: #E3E3E3;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(10px);
@@ -157,10 +154,10 @@ export const SortContainer = styled.div `
     font-size: 18px;
     font-weight: 600;
     margin-top: 50px;
+    position: fixed;
 
     div {
         display: flex;
-
         gap: 10px;
     }
 `
