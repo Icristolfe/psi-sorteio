@@ -17,12 +17,20 @@ export const InputContainer = styled.div `
     justify-content: center;
     gap: 20px;
 
+    @media (max-width: 600px) {
+    gap: 10px;
+  }
+
     input {
         width: 300px;
         height:  40px;
         border: none;
         border-radius: 10px;
         padding-left: 15px;
+
+    @media (max-width: 600px) {
+    width: 40%;
+  }
     }
 
     button {
@@ -42,6 +50,10 @@ export const InputContainer = styled.div `
     &:active{
         opacity: 0.6;
     }
+
+    @media (max-width: 600px) {
+    width: 35%;
+  }
     }
 `
 
@@ -78,6 +90,11 @@ export const ContainerItems = styled.div `
     margin: 50px 0 ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @media (max-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr;
+  }
 
 `
 
@@ -155,6 +172,13 @@ export const SortContainer = styled.div `
     font-weight: 600;
     margin-top: 50px;
     position: fixed;
+    text-shadow: 5px 6px 2px #000;
+
+
+
+    @media (max-width: 600px) {
+            width: 90%;
+  }
 
     div {
         display: flex;
@@ -165,8 +189,8 @@ export const SortContainer = styled.div `
 export const ButtonsContainer = styled.button `
         background: #202A4A;
         color: #e3e3e3;
-        width: 100px;
-        height: 40px;
+        width: 6rem;
+        height: 2rem;
         border: none;
         border-radius: 10px;
         cursor: pointer;
@@ -178,10 +202,15 @@ export const ButtonsContainer = styled.button `
         &:active {
             opacity: 0.6;
         }
+
     
 `
 
 export const H1 = styled.h1`
     color: #e3e3e3;
     margin-bottom: 50px;
+
+    @media (max-width: 600px) {
+    font-size: 18px;
+  }
 `
