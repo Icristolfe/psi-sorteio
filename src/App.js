@@ -67,7 +67,7 @@ function App() {
     <Container>
       <H1>Plataforma de Sorteios</H1>
       <InputContainer>
-      <input value={fraseAtual} onChange={e => setFraseAtual(e.target.value)}/>
+      <input value={fraseAtual} onChange={e => setFraseAtual(e.target.value)} placeholder='Adicione um tema'/>
       <button onClick={adicionarFrase}>Adicionar Tema</button>
       </InputContainer>
       

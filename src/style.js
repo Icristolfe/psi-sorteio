@@ -21,8 +21,17 @@ export const InputContainer = styled.div `
     gap: 10px;
   }
 
+  @media (max-width: 400px) {
+    flex-direction: column;
+    height: 8rem;
+    gap: 10px;
+    width: 100%;
+    font-size: 16px;
+
+  }
+
     input {
-        width: 300px;
+        width: 15rem;
         height:  40px;
         border: none;
         border-radius: 10px;
@@ -31,10 +40,14 @@ export const InputContainer = styled.div `
     @media (max-width: 600px) {
     width: 40%;
   }
+
+  @media (max-width: 400px) {
+    width: 60%;
+  }
     }
 
     button {
-    width: 150px;
+    width: 10rem;
     height: 40px;
     border: none;
     border-radius: 10px;
@@ -53,6 +66,10 @@ export const InputContainer = styled.div `
 
     @media (max-width: 600px) {
     width: 35%;
+  }
+
+  @media (max-width: 400px) {
+    width: 60%;
   }
     }
 `
@@ -101,7 +118,7 @@ export const ContainerItems = styled.div `
 export const SortButton = styled.button `
     background: #202A4A;
     color: #e3e3e3;
-    width: 29%;
+    width: 10rem;
     height: 40px;
     border: none;
     border-radius: 10px;
@@ -115,15 +132,20 @@ export const SortButton = styled.button `
     opacity: 0.6;
         }
 
+        @media (max-width: 400px) {
+    width: 60%;
+  }
+
 `
 
 export const EditContainer = styled.div`
     margin-top: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     input{
-        width: 60%;
+        width: 15rem;
         height:  40px;
         border: none;
         border-radius: 10px;
@@ -134,7 +156,7 @@ export const EditContainer = styled.div`
     button {
     background: #202A4A;
     color: #e3e3e3;
-    width: 70%;
+    width: 10rem;
     height: 40px;
     border: none;
     border-radius: 10px;
@@ -203,7 +225,6 @@ export const ButtonsContainer = styled.button `
             opacity: 0.6;
         }
 
-    
 `
 
 export const H1 = styled.h1`
